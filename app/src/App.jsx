@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Navbar from "./components/Navbar";
-import Footer from "./Components/Footer";
-import Home from "./pages/Home";
-import Admin from "./pages/Admin";
+import Navbar from "./components/Navbar.jsx";
+import Footer from "./Components/Footer.jsx";
+import Home from "./pages/Home.jsx";
+import Admin from "./pages/Admin.jsx";
 
 const App = () => {
   const [profiles, setProfiles] = useState(() => {
